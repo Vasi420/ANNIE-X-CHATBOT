@@ -15,7 +15,7 @@ async def jarvis_boot():
         quit(1)
 
     for all_module in ALL_MODULES:
-        importlib.import_module("ANNIECHATBOT.modules." + all_module)
+        importlib.import_module("iconic_chatbot.modules." + all_module)
 
     LOGGER.info(f"@{app.username} Started.")
     await idle()
