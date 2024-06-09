@@ -1,7 +1,7 @@
 {
-  "name": "ANNIE",
+  "name": "iconic_chatbot",
   "description": "A telegram CHAT bot",
-  "logo": "https://telegra.ph/file/2c6d1a6f78eba6199933a.jpg",
+  "logo": "https://te.legra.ph/file/cdec4aaef86bef52224c7.jpg",
   "keywords": [
     "Chatbot",
     "mongodb",
@@ -16,7 +16,7 @@
       "url": "heroku/python"
     }
   ],
-  "repository": "https://github.com/doraemon890/ANNIE-X-CHATBOT",
+  "repository": "https://github.com/Vasi420/ANNIE-X-CHATBOT",
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID",
@@ -41,7 +41,7 @@
     "OWNER_USERNAME": {
       "description": "Username of the bot owner",
       "required": true,
-      "value": "JARVIS_V2"
+      "value": "Anbesivam_Owner"
     },
     "GPT_API": {
       "description": "Your GPT API Key from OpenAI.",
@@ -51,12 +51,12 @@
     "SUPPORT_GROUP": {
       "description": "Name of the support group",
       "required": true,
-      "value": "Dora_Hub"
+      "value": "asbotshub"
     },
     "UPDATE_CHANNEL": {
       "description": "Name of the update channel",
       "required": true,
-      "value": "JARVIS_V_SUPPORT"
+      "value": "Anbe_Sivam_Bots"
     }
   }
 }
